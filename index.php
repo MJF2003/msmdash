@@ -13,8 +13,8 @@
 	<div class="row">
 		<div class="col-sm">
 			<div class="info-box">
-				<b>REV LIGHTS</b>
-				<div class="progress" style="height: 30px;">
+				<span class="box-title">REV LIGHTS</b>
+				<div class="progress" style="height: 50px;">
 					<div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 				</div>
 			</div>
@@ -23,31 +23,31 @@
 	<div class="row">
 		<div class="col-sm">
 			<div class="info-box">
-				<b>RPM</b><br>
+				<span class="box-title">RPM</b><br>
 				<span id="revspm" class="data">2164</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>BATTERY VOLTAGE</b><br>
+				<span class="box-title">BATTERY VOLTAGE</b><br>
 				<span id="battvlt" class="data">12.6</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>CURRENT GEAR</b><br>
+				<span class="box-title">CURRENT GEAR</b><br>
 				<span id="gearpos" class="big-data">N</span>
 			</div>
 		</div>
 		<div class="col-sm">
-			<div class="info-box">
-				<b>COOLANT TEMP (°C)</b><br>
-				<span id="cooltmp" class="data">48</span>
+			<div class="info-box warning">
+				<span class="box-title">WATER TEMP (°C)</b><br>
+				<span id="cooltmp" class="data">97</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>OIL TEMP (°C)</b><br>
+				<span class="box-title">OIL TEMP (°C)</b><br>
 				<span id="oiltmp" class="data">34</span>
 			</div>
 		</div>
@@ -55,34 +55,37 @@
 	<div class="row">
 		<div class="col-sm">
 			<div class="info-box">
-				<b>FUEL PRESSURE</b><br>
+				<span class="box-title">FUEL PRESSURE</b><br>
 				<span id="fpress" class="data">3.8</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>OIL PRESSURE</b><br>
+				<span class="box-title">OIL PRESSURE</b><br>
 				<span id="oilpress" class="data">1.7</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>ECU TEMP (°C)</b><br>
+				<span class="box-title">ECU TEMP (°C)</b><br>
 				<span id="ecutemp" class="data">32</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>THROTTLE POS (%)</b><br>
+				<span class="box-title">THROTTLE POS (%)</b><br>
 				<span id="throtps" class="data">27</span>
 			</div>
 		</div>
 		<div class="col-sm">
 			<div class="info-box">
-				<b>VEHICLE SPEED</b><br>
+				<span class="box-title">VEHICLE SPEED</b><br>
 				<span id="vspeed" class="data">7</span>
 			</div>
 		</div>
+	</div>
+	<div class="row">
+		<img src="uom_logo.png", alt="University of Manchester" style="max-width: 10rem; margin-left: auto; margin-right: auto;">
 	</div>
 </div>
 
